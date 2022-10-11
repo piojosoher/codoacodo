@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/Favicon.png"/>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    
+    <!-- Mis Estilos -->
+    <link rel="stylesheet" href="./css/fontello.css">
+    <link rel="stylesheet" href="./css/miEstilo.css">
+
+    <title>Trabajo Integrador - Codo a Codo</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <img src="./img/codoacodo.png" alt="Logo">
+            <h1>Conf Bs As</h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+
+            <nav class="menu">
+                <a href="#">La conferencia</a>
+                <a href="#">Los oradores</a>
+                <a href="#">El lugar y la fecha</a>
+                <a href="#formu">Conviértere en orador</a>
+                <a href="#" id="comprarTks">Comprar tickets</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="banner">
+            <img src="img/hawaii.jpg" alt="imagnes de fondo">
+            <div class="contenedor">
+                <h2>Conf Bs As</h2>
+                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                <a href="#"><label class="btn btn-outline-light">Quiero ser orador</label></a>
+                <a href="#"><label class="btn btn-success">Comprar tickets</label></a>
+            </div>
+        </section>
+    
+        <section id="oradores">
+            <p>CONOCE A LOS</p>
+            <h3>ORADORES</h3>
+            <div class="contenedor">
+                <div class="orador">
+                    <img src="img/steve.jpg" alt="Steve">
+                    <div class="orador_text">
+                        <label class="btn btn-warning">JavaScript</label>
+                        <label class="btn btn-primary">React</label>
+                        <h4>Steve Jobs</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi atque error, voluptatem dolore aut quis ratione maxime reprehenderit facere tenetur vitae ipsum voluptatum accusamus deleniti. Sed officiis excepturi eos.</p>
+                    </div>
+                </div>
+                <div class="orador">
+                    <img src="img/bill.jpg" alt="Bill">
+                    <label class="btn btn-warning">JavaScript</label>
+                    <label class="btn btn-primary">React</label>
+                    <h4>Bill Gates</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi atque error, voluptatem dolore aut quis ratione maxime reprehenderit facere tenetur vitae ipsum voluptatum accusamus deleniti. Sed officiis excepturi eos.</p>
+                </div>
+                <div class="orador">
+                    <img src="img/ada.jpeg" alt="Ada">
+                    <label class="btn btn-warning">JavaScript</label>
+                    <label class="btn btn-danger">React</label>
+                    <h4>Ada Lovelace</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi atque error, voluptatem dolore aut quis ratione maxime reprehenderit facere tenetur vitae ipsum voluptatum accusamus deleniti. Sed officiis excepturi eos.</p>
+                </div>                
+            </div>
+        </section>
+
+        <section id="octubre">
+            <div class="contenedor">
+                <div class="oct_left">
+                    <img src="./img/honolulu.jpg" alt="Honolulu">                    
+                </div>
+                <div class="oct_right">
+                    <h4>Bs As - Octubre</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sint, corrupti adipisci, sit nobis magni veniam ipsam explicabo nostrum illo minus aliquid odit dicta ad fuga. Recusandae ut iste molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, ducimus! Deleniti, eos est eveniet veniam dignissimos assumenda fugit aut ipsam expedita dolorem non veritatis ipsum officiis molestias tempora mollitia sint.</p>
+                    <a href="#"><label class="btn btn-outline-light">Conocé más</label></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="formu">
+            <p>CONVÍERTETE EN UN</p>
+            <h3>ORADOR</h3>
+            <P>Anótate como orador para dar una <span>charla ignite</span>. Cuéntanos de qué quieres hablar!</P>
+            <div class="contenedor">
+                <form action="./pages/action_page.html" method="post">
+                    <div id="nyap">
+                        <input type="text" id="nombre" placeholder="Nombre">
+                        <input type="text" id="apellido" placeholder="Apellido"><br>
+                    </div>
+                    <textarea id="tema" name="w3review" rows="4" cols="50" placeholder="Sobre qué quieres hablar?"></textarea><br>
+                    <label for="Recuerda">Recuerda incluir un título para tu charla</label><br>
+                    <input type="submit" id="envio" value="Enviar" class="btn btn-success">
+                </form>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="contenedor">
+                <ul>
+                        <li><a href="./pages/preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+                        <li><a href="#">Contáctenos</a></li>
+                        <li><a href="./pages/Prensa.html">Prensa</a></li>
+                        <li><a href="./pages/Conferencias.html">Conferencias</a></li>
+                        <li><a href="./pages/TerminosYCondiciones.html">Términos y condiciones</a></li>
+                        <li><a href="./pages/Privacidad.html">Privacidad</a></li>
+                        <li><a href="./pages/Estudiantes.html">Estudiantes</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <section id="formu">
+            <div class="contenedor">
+                <p class="copy"> My Site &copy; 2022</p>
+                <div class="redes_sociales">
+                    <a class="icon-github-circled" href="https://github.com/piojosoher"></a>
+                    <a class="icon-instagram" href="https://www.instagram.com/piojosoher/"></a>
+                    <a class="icon-twitter" href="https://twitter.com/piojosoher"></a>
+                    <a class="icon-mail" href="#"></a>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+</body>
+</html>

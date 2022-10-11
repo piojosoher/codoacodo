@@ -1,0 +1,35 @@
+#octubre {
+    background: #333;
+    color: white;
+    padding: 5px;
+    display: flex;
+}
+
+#octubre .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#octubre .oct_left {
+    width: 500px;
+    justify-content: left;
+    border: 1px solid darkgrey;
+}
+
+#octubre .oct_left img{
+    width: 100%;    
+}
+
+#octubre .oct_right {
+    width: 500px;
+    text-align: left;
+    border: 1px solid darkgrey;
+    padding: 10px;
+}
+
+#octubre .oct_right h4 {
+    margin: 0px;
+} 
+
+

@@ -1,0 +1,44 @@
+#oradores h3 {
+    text-align: center;
+}
+
+#oradores p {
+    color: darkgrey;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+}
+
+#oradores .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#oradores .orador {
+    margin: 15px;
+    width: 220px;
+    border: 1px solid darkgrey;  
+}
+
+#oradores .orador label {
+    font-size: 9px;
+    margin: 15px 0px 0px 10px;
+    padding: 1px 4px 1px 4px;
+}
+
+#oradores .orador p, h4 {
+    text-align: justify;
+    margin: 0px 10px 10px 10px;
+}
+
+#oradores .orador p {
+    text-align: justify;
+    margin: 10px;
+}
+
+#oradores img {
+    width: 100%;
+    /* max-width: 280px; */
+    height: 220px;
+}

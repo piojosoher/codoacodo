@@ -1,0 +1,159 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.5);
+}
+
+#banner .contenedor {
+    position: absolute;
+    /*Coloco el texto del contenedor arriba de la imagen por eso es absoluto a la imagen que es realtiva*/
+    text-align: right;
+    width: 500px;
+    top: 50%;
+    left: 60%;
+    transform: translateX(-50%) translateY(-50%); /*Queda centrado horizontalmente y a la izq verticalmente*/
+    color: white;
+}
+
+#banner h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+/* #banner p {
+    font-size: 20px;
+} */
+
+/* #banner a {
+    display: block;
+    width: 100px;
+    color: white;
+    text-decoration:  none;
+    padding: 7px;
+    margin-top: 10px;
+    border: 3px solid white;
+    text-align: center;
+} */
+
+#banner a:hover {
+    background: rgba(51,51,51,0.3);
+}
+
+
+/*-- Media queries ------------*/
+@media (min-width:160px){
+    #banner h2 {
+        font-size: 8px;
+    }
+    #banner p {
+        font-size: 8px;
+    }
+    #banner label {
+        font-size: 6px;
+    }
+    #banner img {
+        margin-top:l 0px;
+    }
+}
+
+
+
+@media (min-width:260px){
+    #banner h2 {
+        font-size: 10px;
+    }
+    #banner p {
+        font-size: 8px;
+    }
+    #banner label {
+        font-size: 8px;
+    }
+}
+
+@media (min-width:400px){
+    #banner h2 {
+        font-size: 14px;
+    }
+    #banner p {
+        font-size: 10px;
+    }
+    #banner label {
+        font-size: 10px;
+    }
+}
+
+@media (min-width:525px){
+    /* #banner .contenedor .texto {
+    top: 0%;
+    left: 0%;
+    transform: translateX(0%) translateY(0%);
+    } */
+    
+    #banner h2 {
+        font-size: 16px;
+    }
+    #banner p {
+        font-size: 12px;
+    }
+    #banner label {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:610px){
+    #banner h2 {
+        font-size: 18px;
+    }
+    #banner p {
+        font-size: 14px;
+    }
+    #banner label {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:670px){
+    #banner h2 {
+        font-size: 20px;
+    }
+    #banner p {
+        font-size: 16px;
+    }
+}
+
+/*Para table*/
+@media (min-width:768px){
+    #banner {
+        /* height: 300px; */
+        overflow: hidden;/*todo lo que sobresale de la imagen la oculto para que no me pise el BIENVENIDOS*/
+    }
+    #banner h2 {
+        font-size: 24px;
+    }
+    #banner p {
+        font-size: 18px;
+    }
+
+    /* #banner img {
+        height: auto;
+        margin-top: -100px;
+    } */
+}
+@media (min-width:877px){
+    #banner .contenedor a,label {
+        margin-top: 10px;
+    }
+    
+}
+
+/*Para web*/
+@media (min-width:1024px){
+    #banner img {
+        margin-top: -200px;
+    }
+    
+}

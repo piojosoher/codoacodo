@@ -1,0 +1,49 @@
+#formu {
+    /* background: #333;
+    color: white; */
+    text-align: center;
+    padding: 20px;
+}
+
+#formu .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#formu p {
+    color: darkgrey;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px;
+}
+
+#formu form {
+    width: 100%;
+}
+
+#formu p span {
+    text-decoration: underline;
+}
+
+#formu .contenedor #nyap{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#formu .contenedor #nombre, #apellido{
+    width: 45%;
+}
+
+#formu .contenedor textarea, #envio {
+    width: 100%;
+}
+
+#formu .contenedor label {
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+}
+
